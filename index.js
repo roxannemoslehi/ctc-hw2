@@ -36,8 +36,8 @@ $('#task5').click(function() {
  });
 
  //QUESTION 6
- $('.nyancat').click(function() {
-     $(this).animate({left:'85%'}, 'slow');
-     $(this).parent().find('.rainbows').animate({width: '78%'}, 'slow');
+$('.nyancat').click(function() {
+    $(this).animate({left:'85%'}, 'slow');
+    $(this).parent().find('.rainbows').animate({width: '78%'}, 'slow');
  });
 });
