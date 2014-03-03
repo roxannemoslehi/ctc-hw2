@@ -30,9 +30,9 @@ $('#task4').click(function() {
  //QUESTION 5
 $('#task5').click(function() {
     $('.spincar').css('-webkit-animation-name', 'drive');
-	$('.spincar').css('-webkit-animation-play-state', 'running');
-	$('.spincar .wheel').css('-webkit-animation-name', 'spin');
-	$('.spincar .wheel').css('-webkit-animation-play-state', 'running');
+    $('.spincar').css('-webkit-animation-play-state', 'running');
+    $('.spincar .wheel').css('-webkit-animation-name', 'spin');
+    $('.spincar .wheel').css('-webkit-animation-play-state', 'running');
  });
 
  //QUESTION 6
