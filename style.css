@@ -73,7 +73,6 @@ img {
   background-repeat: no-repeat;
   height: 200px;
   width: 500px;
-  -webkit-animation-name: drive;
   -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -85,7 +84,6 @@ img {
   width: 80px;
   position: absolute;
   top: 55px;
-  -webkit-animation-name: spin;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -95,6 +93,7 @@ img {
 
 .spincar #wheel1 {
   left: 85px;
+
 }
 
 .spincar #wheel2 {
@@ -115,7 +114,7 @@ img {
     -webkit-transform:rotate(0deg);
   }
   to {
-    /* fill me out */
+    -webkit-transform:rotate(360deg);
   }
 }
 
@@ -127,6 +126,7 @@ img {
     height: 100px;
     width: 140px;
     position: absolute;
+    left: 130px;
 }
 .rainbows {
     background-image: url(http://users.rescomp.berkeley.edu/~carinaboo/workshop/images/rainbow.png);
